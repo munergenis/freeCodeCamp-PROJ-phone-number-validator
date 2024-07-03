@@ -6,6 +6,9 @@
 
 body {
   min-height: 100dvh;
+  background-color: #334;
+  color: whitesmoke;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 h1,
@@ -17,4 +20,35 @@ h4 {
 
 p {
   text-wrap: pretty;
+}
+
+/* LAYOUT */
+main {
+  padding: 4em 2em;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+}
+
+h1,
+#results-div {
+  text-align: center;
+}
+
+input,
+button {
+  text-align: center;
+  height: 2em;
+  font-family: inherit;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+input {
+  background-color: blanchedalmond;
+  border: 2px solid gray;
+}
+
+button {
+  background-color: #9aa;
 }
